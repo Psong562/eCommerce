@@ -1,6 +1,6 @@
    
 #E-Commerce-Backend
-The challenge is to build the back end for an e-commerce site.
+Build the back end for an e-commerce site.
 
 #####Table Of Content
 - [General Info](#Generalinfo)
@@ -9,10 +9,9 @@ The challenge is to build the back end for an e-commerce site.
 - [Usage](#Usage)
 - [Questions](#Questions)
 
+#####General Info
 We’ll take a working Express.js API and configure it to use Sequelize to interact with a MySQL database. This application won’t be deployed so i’ll show a walkthrough video that demonstrates its functionality.
 Image showcasing the application running in Insomnia. 
-
-#####Demonstration Video 
 
 #####Technologies
 Project is created with
@@ -23,7 +22,8 @@ Sequelize
 MySQL2
 Express
 Dotenv
-Installation
+
+#####Installation
 To get started clone this repository using
 
 gitclone of the repository @ https://github.com/Psong562/eCommerce
