@@ -27,7 +27,6 @@ router.put('/tags/:id', async function(req, res) {
   const tags = await Tag.Update(req.body, { where: { id } })
   res.sendStatus(200)
 })
-})
 
 router.delete('/tags/:id', async function ({ params: { id } }, res) {
   // delete on tag by its `id` value

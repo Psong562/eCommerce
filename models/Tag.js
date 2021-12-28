@@ -9,8 +9,14 @@ Tag.init(
     // define columns
     id: {
       type: DataTypes.INTEGER,
-      references: {model: "tag", key: "id"}
+      primaryKey: true,
+      allowNull: false,
+      autoIncrement: true
+    },
+    tag_name: {
+      type: DataTypes.STRING
     }
+  
   },
   {
     sequelize,
